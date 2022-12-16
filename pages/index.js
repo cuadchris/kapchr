@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
+import Instagram from "../components/instagram";
 import Slider from "../components/Slider";
 import { SliderData } from "../components/SliderData";
 
@@ -17,6 +18,7 @@ export default function Home() {
         message="I capture moments, and I keep them alive."
       />
       <Slider slides={SliderData} />
+      <Instagram/>
     </>
   );
 }
