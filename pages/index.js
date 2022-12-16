@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
+import Slider from "../components/Slider";
+import { SliderData } from "../components/SliderData";
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
         heading="Kapchr Photography"
         message="I capture moments, and I keep them alive."
       />
+      <Slider slides={SliderData} />
     </>
   );
 }
