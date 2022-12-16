@@ -40,10 +40,10 @@ const Nav = () => {
             <Link href="/">Home</Link>
           </li>
           <li className="p-4">
-            <Link href="/gallery">Gallery</Link>
+            <Link href="/#gallery">Gallery</Link>
           </li>
           <li className="p-4">
-            <Link href="/portfoilio">Work</Link>
+            <Link href="/work">Work</Link>
           </li>
           <li className="p-4">
             <Link href="/contact">Contact</Link>
@@ -75,16 +75,16 @@ const Nav = () => {
           }
         >
           <ul>
-            <li className="p-4 text-4xl hover:text-gray-500 ease-linear duration-300">
+            <li onClick={handleNav} className="p-4 text-4xl hover:text-gray-500 ease-linear duration-300">
               <Link href="/">Home</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-gray-500 ease-linear duration-300">
-              <Link href="/gallery">Gallery</Link>
+            <li onClick={handleNav} className="p-4 text-4xl hover:text-gray-500 ease-linear duration-300">
+              <Link href="/#gallery">Gallery</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-gray-500 ease-linear duration-300">
-              <Link href="/portfoilio">Work</Link>
+            <li onClick={handleNav} className="p-4 text-4xl hover:text-gray-500 ease-linear duration-300">
+              <Link href="/work">Work</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-gray-500 ease-linear duration-300">
+            <li onClick={handleNav} className="p-4 text-4xl hover:text-gray-500 ease-linear duration-300">
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
