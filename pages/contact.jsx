@@ -7,7 +7,7 @@ const contact = () => {
     <div>
       <Hero
         heading="Contact"
-        message="Submit the form below for more work and quotes."
+        message="Submit the form so I can immortalize your memories, too.."
       />
       <Contact />
     </div>

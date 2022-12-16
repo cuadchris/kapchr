@@ -7,7 +7,7 @@ const raleway = Raleway({ subsets: ["latin"] });
 export default function App({ Component, pageProps }) {
   return (
     <main className={raleway.className}>
-      <Nav/>
+      <Nav />
       <Component {...pageProps} />
     </main>
   );

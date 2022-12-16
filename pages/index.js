@@ -18,7 +18,7 @@ export default function Home() {
         message="I capture moments, and I keep them alive."
       />
       <Slider slides={SliderData} />
-      <Instagram/>
+      <Instagram />
     </>
   );
 }
